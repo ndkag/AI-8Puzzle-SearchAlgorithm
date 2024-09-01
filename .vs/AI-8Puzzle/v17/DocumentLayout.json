@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\",
+  "WorkspaceRootPath": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle\\ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle\\ai-8puzzle\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle\\ai-8puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,9 +42,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Program.cs",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Program.cs",
               "RelativeDocumentMoniker": "AI-8Puzzle\\Program.cs",
-              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Program.cs",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Program.cs",
               "RelativeToolTip": "AI-8Puzzle\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,23 +72,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BFS.cs",
-              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\BFS.cs",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\BFS.cs",
               "RelativeDocumentMoniker": "AI-8Puzzle\\BFS.cs",
-              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\BFS.cs",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\BFS.cs",
               "RelativeToolTip": "AI-8Puzzle\\BFS.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T03:35:06.62Z"
+              "WhenOpened": "2024-08-30T03:35:06.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Home.cs",
-              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Home.cs",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Home.cs",
               "RelativeDocumentMoniker": "AI-8Puzzle\\Home.cs",
-              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Home.cs",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Home.cs",
               "RelativeToolTip": "AI-8Puzzle\\Home.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,9 +100,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.cs [Design]",
-              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Home.cs",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Home.cs",
               "RelativeDocumentMoniker": "AI-8Puzzle\\Home.cs",
-              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Home.cs [Design]",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Home.cs [Design]",
               "RelativeToolTip": "AI-8Puzzle\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T02:41:59.197Z",
