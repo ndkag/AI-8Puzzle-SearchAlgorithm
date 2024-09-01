@@ -1,8 +1,8 @@
 namespace AI_8Puzzle
 {
-    public partial class Home : Form
+    public partial class Index : Form
     {
-        public Home()
+        public Index()
         {
             InitializeComponent();
         }

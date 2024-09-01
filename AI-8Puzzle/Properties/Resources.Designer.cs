@@ -89,5 +89,25 @@ namespace AI_8Puzzle.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ngo_nghinh_anh_meo_cute_nupet_11 {
+            get {
+                object obj = ResourceManager.GetObject("ngo-nghinh-anh-meo-cute-nupet-11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap original {
+            get {
+                object obj = ResourceManager.GetObject("original", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

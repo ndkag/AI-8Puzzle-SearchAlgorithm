@@ -1,28 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\",
+  "WorkspaceRootPath": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle\\ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle\\ai-8puzzle\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle\\ai-8puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duykh\\Documents\\Zalo Received Files\\DeTai10_GhepTranhAS\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\duykh\\Documents\\Zalo Received Files\\DeTai10_GhepTranhAS\\ThuatToanAS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\resources\\null.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\resources\\null.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\resources\\original.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\resources\\original.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|f:\\tai lieu hoc\\ai\\ai-8puzzle-searchalgorithm\\ai-8puzzle\\resources\\icons8_left_208px.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{55B9B532-7B82-4DEF-B392-A3D5AAFF3131}|AI-8Puzzle\\AI-8Puzzle.csproj|solutionrelative:ai-8puzzle\\resources\\icons8_left_208px.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,72 +45,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Program.cs",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Program.cs",
               "RelativeDocumentMoniker": "AI-8Puzzle\\Program.cs",
-              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Program.cs",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Program.cs",
               "RelativeToolTip": "AI-8Puzzle\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T03:43:34.738Z"
+              "WhenOpened": "2024-09-01T08:14:03.195Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\duykh\\Documents\\Zalo Received Files\\DeTai10_GhepTranhAS\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\duykh\\Documents\\Zalo Received Files\\DeTai10_GhepTranhAS\\Form1.Designer.cs",
-              "ViewState": "AQIAACIBAAAAAAAAAAAAADsBAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T03:38:47.641Z"
+              "Title": "null.jpg - Bitmap [1024x600, 24 bit, JPG]",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Resources\\null.jpg",
+              "RelativeDocumentMoniker": "AI-8Puzzle\\Resources\\null.jpg",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Resources\\null.jpg - Bitmap [1024x600, 24 bit, JPG]",
+              "RelativeToolTip": "AI-8Puzzle\\Resources\\null.jpg - Bitmap [1024x600, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-01T08:11:15.627Z",
+              "EditorCaption": " - Bitmap [1024x600, 24 bit, JPG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ThuatToanAS.cs",
-              "DocumentMoniker": "C:\\Users\\duykh\\Documents\\Zalo Received Files\\DeTai10_GhepTranhAS\\ThuatToanAS.cs",
-              "ToolTip": "C:\\Users\\duykh\\Documents\\Zalo Received Files\\DeTai10_GhepTranhAS\\ThuatToanAS.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T03:37:35.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BFS.cs",
-              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\BFS.cs",
-              "RelativeDocumentMoniker": "AI-8Puzzle\\BFS.cs",
-              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\BFS.cs",
-              "RelativeToolTip": "AI-8Puzzle\\BFS.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T03:35:06.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Home.cs",
-              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Home.cs",
-              "RelativeDocumentMoniker": "AI-8Puzzle\\Home.cs",
-              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Home.cs",
-              "RelativeToolTip": "AI-8Puzzle\\Home.cs",
+              "DocumentIndex": 3,
+              "Title": "Index.cs",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Index.cs",
+              "RelativeDocumentMoniker": "AI-8Puzzle\\Index.cs",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Index.cs",
+              "RelativeToolTip": "AI-8Puzzle\\Index.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T02:48:10.713Z",
+              "WhenOpened": "2024-09-01T08:00:37.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "icons8_left_208px.png - PNG [208x208, 32 bit, PNG]",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Resources\\icons8_left_208px.png",
+              "RelativeDocumentMoniker": "AI-8Puzzle\\Resources\\icons8_left_208px.png",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Resources\\icons8_left_208px.png - PNG [208x208, 32 bit, PNG]",
+              "RelativeToolTip": "AI-8Puzzle\\Resources\\icons8_left_208px.png - PNG [208x208, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-01T08:00:13.394Z",
+              "EditorCaption": " - PNG [208x208, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Home.cs",
-              "RelativeDocumentMoniker": "AI-8Puzzle\\Home.cs",
-              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle\\AI-8Puzzle\\Home.cs [Design]",
-              "RelativeToolTip": "AI-8Puzzle\\Home.cs [Design]",
+              "Title": "Index.cs [Design]",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Index.cs",
+              "RelativeDocumentMoniker": "AI-8Puzzle\\Index.cs",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Index.cs [Design]",
+              "RelativeToolTip": "AI-8Puzzle\\Index.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T02:41:59.197Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAEMNAAAAAAAAAAAawEQNAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-01T08:06:38.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "original.jpg - Bitmap [800x800, 24 bit, JPG]",
+              "DocumentMoniker": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Resources\\original.jpg",
+              "RelativeDocumentMoniker": "AI-8Puzzle\\Resources\\original.jpg",
+              "ToolTip": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\Resources\\original.jpg - Bitmap [800x800, 24 bit, JPG]",
+              "RelativeToolTip": "AI-8Puzzle\\Resources\\original.jpg - Bitmap [800x800, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-01T08:00:19.977Z",
+              "EditorCaption": " - Bitmap [800x800, 24 bit, JPG]"
             }
           ]
         }

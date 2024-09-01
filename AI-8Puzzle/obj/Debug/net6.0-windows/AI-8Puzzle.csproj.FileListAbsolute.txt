@@ -15,6 +15,7 @@ F:\Tai lieu hoc\AI\AI-8Puzzle\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.pdb
 F:\Tai lieu hoc\AI\AI-8Puzzle\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.genruntimeconfig.cache
 F:\Tai lieu hoc\AI\AI-8Puzzle\AI-8Puzzle\obj\Debug\net6.0-windows\ref\AI-8Puzzle.dll
 F:\Tai lieu hoc\AI\AI-8Puzzle\AI-8Puzzle\obj\Debug\net6.0-windows\AI_8Puzzle.Home.resources
+<<<<<<< HEAD
 D:\Documents\2024-2025\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\bin\Debug\net6.0-windows\AI-8Puzzle.exe
 D:\Documents\2024-2025\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\bin\Debug\net6.0-windows\AI-8Puzzle.deps.json
 D:\Documents\2024-2025\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\bin\Debug\net6.0-windows\AI-8Puzzle.runtimeconfig.json
@@ -33,3 +34,23 @@ D:\Documents\2024-2025\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0
 D:\Documents\2024-2025\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.pdb
 D:\Documents\2024-2025\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.genruntimeconfig.cache
 D:\Documents\2024-2025\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\ref\AI-8Puzzle.dll
+=======
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.csproj.GenerateResource.cache
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.dll
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\refint\AI-8Puzzle.dll
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.pdb
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\bin\Debug\net6.0-windows\AI-8Puzzle.exe
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\bin\Debug\net6.0-windows\AI-8Puzzle.deps.json
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\bin\Debug\net6.0-windows\AI-8Puzzle.runtimeconfig.json
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\bin\Debug\net6.0-windows\AI-8Puzzle.dll
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\bin\Debug\net6.0-windows\AI-8Puzzle.pdb
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI_8Puzzle.Properties.Resources.resources
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.AssemblyInfoInputs.cache
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.AssemblyInfo.cs
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.csproj.CoreCompileInputs.cache
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.sourcelink.json
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI-8Puzzle.genruntimeconfig.cache
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\ref\AI-8Puzzle.dll
+F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\obj\Debug\net6.0-windows\AI_8Puzzle.Index.resources
+>>>>>>> c3a3f68f4ab16243f10a4675f497913c86b492af

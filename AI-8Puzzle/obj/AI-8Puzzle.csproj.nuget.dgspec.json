@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Documents\\2024-2025\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\AI-8Puzzle.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\Documents\\2024-2025\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\AI-8Puzzle.csproj",
         "packagesPath": "C:\\Users\\PHAMXUANMANH\\.nuget\\packages\\",
         "outputPath": "D:\\Documents\\2024-2025\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\obj\\",
+=======
+    "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\AI-8Puzzle.csproj": {}
+  },
+  "projects": {
+    "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\AI-8Puzzle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\AI-8Puzzle.csproj",
+        "projectName": "AI-8Puzzle",
+        "projectPath": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\AI-8Puzzle.csproj",
+        "packagesPath": "C:\\Users\\duykh\\.nuget\\packages\\",
+        "outputPath": "F:\\Tai lieu hoc\\AI\\AI-8Puzzle-SearchAlgorithm\\AI-8Puzzle\\obj\\",
+>>>>>>> c3a3f68f4ab16243f10a4675f497913c86b492af
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
