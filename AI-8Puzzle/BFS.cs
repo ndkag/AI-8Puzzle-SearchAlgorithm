@@ -8,6 +8,7 @@ namespace AI_8Puzzle
 {
     internal class BFS
     {
+        List<int> tree;
 
     }
 }
