@@ -36,8 +36,6 @@
             btn_choilai = new Button();
             btn_tamdung = new Button();
             groupBox2 = new GroupBox();
-            button2 = new Button();
-            button1 = new Button();
             groupBox3 = new GroupBox();
             img_goc = new PictureBox();
             label1 = new Label();
@@ -51,7 +49,6 @@
             btn_next = new Button();
             btn_back = new Button();
             groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_goc).BeginInit();
             panel1.SuspendLayout();
@@ -128,8 +125,6 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(button2);
-            groupBox2.Controls.Add(button1);
             groupBox2.Dock = DockStyle.Top;
             groupBox2.Location = new Point(0, 0);
             groupBox2.Name = "groupBox2";
@@ -137,24 +132,6 @@
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
             groupBox2.Text = "Khung ảnh";
-            // 
-            // button2
-            // 
-            button2.Location = new Point(111, 29);
-            button2.Name = "button2";
-            button2.Size = new Size(93, 84);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(12, 29);
-            button1.Name = "button1";
-            button1.Size = new Size(93, 84);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
@@ -275,9 +252,9 @@
             btn_next.BackgroundImage = (Image)resources.GetObject("btn_next.BackgroundImage");
             btn_next.BackgroundImageLayout = ImageLayout.Zoom;
             btn_next.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_next.Location = new Point(633, 498);
+            btn_next.Location = new Point(641, 495);
             btn_next.Name = "btn_next";
-            btn_next.Size = new Size(58, 42);
+            btn_next.Size = new Size(52, 42);
             btn_next.TabIndex = 9;
             btn_next.UseVisualStyleBackColor = true;
             // 
@@ -286,9 +263,9 @@
             btn_back.BackgroundImage = Properties.Resources.icons8_left_208px;
             btn_back.BackgroundImageLayout = ImageLayout.Zoom;
             btn_back.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_back.Location = new Point(6, 498);
+            btn_back.Location = new Point(3, 495);
             btn_back.Name = "btn_back";
-            btn_back.Size = new Size(58, 42);
+            btn_back.Size = new Size(52, 42);
             btn_back.TabIndex = 8;
             btn_back.UseVisualStyleBackColor = true;
             // 
@@ -305,7 +282,6 @@
             Name = "Home";
             Text = "Home";
             groupBox1.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
             groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)img_goc).EndInit();
             panel1.ResumeLayout(false);
@@ -338,7 +314,5 @@
         private Button btn_next;
         private Button btn_back;
         private Label label2;
-        private Button button2;
-        private Button button1;
     }
 }

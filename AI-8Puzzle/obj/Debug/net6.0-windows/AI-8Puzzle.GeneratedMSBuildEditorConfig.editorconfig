@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AI_8Puzzle
-build_property.ProjectDir = F:\Tai lieu hoc\AI\AI-8Puzzle\AI-8Puzzle\
+build_property.ProjectDir = F:\Tai lieu hoc\AI\AI-8Puzzle-SearchAlgorithm\AI-8Puzzle\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
