@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AI-8Puzzle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+102dcbad1c2dee0429bccaaa732f3c163804c59f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3a3f68f4ab16243f10a4675f497913c86b492af")]
 [assembly: System.Reflection.AssemblyProductAttribute("AI-8Puzzle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AI-8Puzzle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
