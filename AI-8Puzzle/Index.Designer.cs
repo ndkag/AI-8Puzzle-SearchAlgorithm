@@ -29,396 +29,432 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Index));
-            btn_batdau = new Button();
-            groupBox1 = new GroupBox();
-            btn_giaitoiuu = new Button();
-            btn_bfs = new Button();
-            btn_choilai = new Button();
-            btn_tamdung = new Button();
-            groupBox2 = new GroupBox();
-            pbx9 = new PictureBox();
-            pbx6 = new PictureBox();
-            pbx8 = new PictureBox();
-            pbx5 = new PictureBox();
-            pbx3 = new PictureBox();
-            pbx7 = new PictureBox();
-            pbx4 = new PictureBox();
-            pbx2 = new PictureBox();
-            pbx1 = new PictureBox();
-            groupBox3 = new GroupBox();
-            img_goc = new PictureBox();
-            label1 = new Label();
-            panel1 = new Panel();
-            label4 = new Label();
-            panel2 = new Panel();
-            label2 = new Label();
-            label3 = new Label();
-            label5 = new Label();
-            panel3 = new Panel();
-            btn_next = new Button();
-            btn_back = new Button();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbx6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbx8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbx5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbx3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbx7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbx4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbx2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbx1).BeginInit();
-            groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)img_goc).BeginInit();
-            panel1.SuspendLayout();
-            panel2.SuspendLayout();
-            panel3.SuspendLayout();
-            SuspendLayout();
+            this.btn_batdau = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_giaitoiuu = new System.Windows.Forms.Button();
+            this.btn_bfs = new System.Windows.Forms.Button();
+            this.btn_choilai = new System.Windows.Forms.Button();
+            this.btn_tamdung = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox_22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_02 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_01 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_00 = new System.Windows.Forms.PictureBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.img_goc = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lbCountMove = new System.Windows.Forms.Label();
+            this.lbtime = new System.Windows.Forms.Label();
+            this.lbNumberStep = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btn_next = new System.Windows.Forms.Button();
+            this.btn_back = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_00)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.img_goc)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.SuspendLayout();
             // 
             // btn_batdau
             // 
-            btn_batdau.BackColor = Color.LightCoral;
-            btn_batdau.Dock = DockStyle.Bottom;
-            btn_batdau.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_batdau.Location = new Point(3, 124);
-            btn_batdau.Name = "btn_batdau";
-            btn_batdau.Size = new Size(550, 52);
-            btn_batdau.TabIndex = 0;
-            btn_batdau.Text = "Bắt đầu";
-            btn_batdau.UseVisualStyleBackColor = false;
+            this.btn_batdau.BackColor = System.Drawing.Color.LightCoral;
+            this.btn_batdau.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btn_batdau.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_batdau.Location = new System.Drawing.Point(3, 124);
+            this.btn_batdau.Name = "btn_batdau";
+            this.btn_batdau.Size = new System.Drawing.Size(550, 52);
+            this.btn_batdau.TabIndex = 0;
+            this.btn_batdau.Text = "Bắt đầu";
+            this.btn_batdau.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(btn_giaitoiuu);
-            groupBox1.Controls.Add(btn_bfs);
-            groupBox1.Controls.Add(btn_choilai);
-            groupBox1.Controls.Add(btn_tamdung);
-            groupBox1.Controls.Add(btn_batdau);
-            groupBox1.Dock = DockStyle.Bottom;
-            groupBox1.Location = new Point(0, 465);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(556, 179);
-            groupBox1.TabIndex = 1;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Chức năng";
+            this.groupBox1.Controls.Add(this.btn_giaitoiuu);
+            this.groupBox1.Controls.Add(this.btn_bfs);
+            this.groupBox1.Controls.Add(this.btn_choilai);
+            this.groupBox1.Controls.Add(this.btn_tamdung);
+            this.groupBox1.Controls.Add(this.btn_batdau);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.groupBox1.Location = new System.Drawing.Point(0, 465);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(556, 179);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Chức năng";
             // 
             // btn_giaitoiuu
             // 
-            btn_giaitoiuu.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_giaitoiuu.Location = new Point(297, 75);
-            btn_giaitoiuu.Name = "btn_giaitoiuu";
-            btn_giaitoiuu.Size = new Size(208, 42);
-            btn_giaitoiuu.TabIndex = 4;
-            btn_giaitoiuu.Text = "Giải tối ưu";
-            btn_giaitoiuu.UseVisualStyleBackColor = true;
+            this.btn_giaitoiuu.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_giaitoiuu.Location = new System.Drawing.Point(297, 75);
+            this.btn_giaitoiuu.Name = "btn_giaitoiuu";
+            this.btn_giaitoiuu.Size = new System.Drawing.Size(208, 42);
+            this.btn_giaitoiuu.TabIndex = 4;
+            this.btn_giaitoiuu.Text = "Giải tối ưu";
+            this.btn_giaitoiuu.UseVisualStyleBackColor = true;
+            this.btn_giaitoiuu.Click += new System.EventHandler(this.btn_giaitoiuu_Click);
             // 
             // btn_bfs
             // 
-            btn_bfs.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_bfs.Location = new Point(47, 75);
-            btn_bfs.Name = "btn_bfs";
-            btn_bfs.Size = new Size(208, 42);
-            btn_bfs.TabIndex = 3;
-            btn_bfs.Text = "Giải BFS";
-            btn_bfs.UseVisualStyleBackColor = true;
+            this.btn_bfs.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_bfs.Location = new System.Drawing.Point(47, 75);
+            this.btn_bfs.Name = "btn_bfs";
+            this.btn_bfs.Size = new System.Drawing.Size(208, 42);
+            this.btn_bfs.TabIndex = 3;
+            this.btn_bfs.Text = "Giải BFS";
+            this.btn_bfs.UseVisualStyleBackColor = true;
+            this.btn_bfs.Click += new System.EventHandler(this.btn_bfs_Click);
             // 
             // btn_choilai
             // 
-            btn_choilai.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_choilai.Location = new Point(297, 23);
-            btn_choilai.Name = "btn_choilai";
-            btn_choilai.Size = new Size(208, 42);
-            btn_choilai.TabIndex = 2;
-            btn_choilai.Text = "Chơi lại";
-            btn_choilai.UseVisualStyleBackColor = true;
+            this.btn_choilai.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_choilai.Location = new System.Drawing.Point(297, 23);
+            this.btn_choilai.Name = "btn_choilai";
+            this.btn_choilai.Size = new System.Drawing.Size(208, 42);
+            this.btn_choilai.TabIndex = 2;
+            this.btn_choilai.Text = "Chơi lại";
+            this.btn_choilai.UseVisualStyleBackColor = true;
+            this.btn_choilai.Click += new System.EventHandler(this.btn_choilai_Click);
             // 
             // btn_tamdung
             // 
-            btn_tamdung.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_tamdung.Location = new Point(47, 23);
-            btn_tamdung.Name = "btn_tamdung";
-            btn_tamdung.Size = new Size(208, 42);
-            btn_tamdung.TabIndex = 1;
-            btn_tamdung.Text = "Tạm dừng";
-            btn_tamdung.UseVisualStyleBackColor = true;
+            this.btn_tamdung.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_tamdung.Location = new System.Drawing.Point(47, 23);
+            this.btn_tamdung.Name = "btn_tamdung";
+            this.btn_tamdung.Size = new System.Drawing.Size(208, 42);
+            this.btn_tamdung.TabIndex = 1;
+            this.btn_tamdung.Text = "Tạm dừng";
+            this.btn_tamdung.UseVisualStyleBackColor = true;
+            this.btn_tamdung.Click += new System.EventHandler(this.btn_tamdung_Click);
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(pbx9);
-            groupBox2.Controls.Add(pbx6);
-            groupBox2.Controls.Add(pbx8);
-            groupBox2.Controls.Add(pbx5);
-            groupBox2.Controls.Add(pbx3);
-            groupBox2.Controls.Add(pbx7);
-            groupBox2.Controls.Add(pbx4);
-            groupBox2.Controls.Add(pbx2);
-            groupBox2.Controls.Add(pbx1);
-            groupBox2.Dock = DockStyle.Top;
-            groupBox2.Location = new Point(0, 0);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(574, 535);
-            groupBox2.TabIndex = 2;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Khung ảnh";
+            this.groupBox2.Controls.Add(this.pictureBox_22);
+            this.groupBox2.Controls.Add(this.pictureBox_12);
+            this.groupBox2.Controls.Add(this.pictureBox_21);
+            this.groupBox2.Controls.Add(this.pictureBox_11);
+            this.groupBox2.Controls.Add(this.pictureBox_02);
+            this.groupBox2.Controls.Add(this.pictureBox_20);
+            this.groupBox2.Controls.Add(this.pictureBox_10);
+            this.groupBox2.Controls.Add(this.pictureBox_01);
+            this.groupBox2.Controls.Add(this.pictureBox_00);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(574, 535);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Khung ảnh";
             // 
-            // pbx9
+            // pictureBox_22
             // 
-            pbx9.Location = new Point(381, 359);
-            pbx9.Margin = new Padding(4);
-            pbx9.Name = "pbx9";
-            pbx9.Size = new Size(173, 160);
-            pbx9.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx9.TabIndex = 8;
-            pbx9.TabStop = false;
+            this.pictureBox_22.Location = new System.Drawing.Point(381, 359);
+            this.pictureBox_22.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_22.Name = "pictureBox_22";
+            this.pictureBox_22.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_22.TabIndex = 8;
+            this.pictureBox_22.TabStop = false;
+            this.pictureBox_22.Tag = "22";
+            this.pictureBox_22.Click += new System.EventHandler(this.pictureBox_22_Click);
             // 
-            // pbx6
+            // pictureBox_12
             // 
-            pbx6.Location = new Point(381, 194);
-            pbx6.Margin = new Padding(4);
-            pbx6.Name = "pbx6";
-            pbx6.Size = new Size(173, 160);
-            pbx6.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx6.TabIndex = 7;
-            pbx6.TabStop = false;
+            this.pictureBox_12.Image = global::AI_8Puzzle.Properties.Resources._6;
+            this.pictureBox_12.Location = new System.Drawing.Point(381, 194);
+            this.pictureBox_12.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_12.Name = "pictureBox_12";
+            this.pictureBox_12.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_12.TabIndex = 7;
+            this.pictureBox_12.TabStop = false;
+            this.pictureBox_12.Tag = "12";
+            this.pictureBox_12.Click += new System.EventHandler(this.pictureBox_12_Click);
             // 
-            // pbx8
+            // pictureBox_21
             // 
-            pbx8.Location = new Point(202, 359);
-            pbx8.Margin = new Padding(4);
-            pbx8.Name = "pbx8";
-            pbx8.Size = new Size(173, 160);
-            pbx8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx8.TabIndex = 6;
-            pbx8.TabStop = false;
+            this.pictureBox_21.Image = global::AI_8Puzzle.Properties.Resources._8;
+            this.pictureBox_21.Location = new System.Drawing.Point(202, 359);
+            this.pictureBox_21.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_21.Name = "pictureBox_21";
+            this.pictureBox_21.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_21.TabIndex = 6;
+            this.pictureBox_21.TabStop = false;
+            this.pictureBox_21.Tag = "21";
+            this.pictureBox_21.Click += new System.EventHandler(this.pictureBox_21_Click);
             // 
-            // pbx5
+            // pictureBox_11
             // 
-            pbx5.Location = new Point(202, 194);
-            pbx5.Margin = new Padding(4);
-            pbx5.Name = "pbx5";
-            pbx5.Size = new Size(173, 160);
-            pbx5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx5.TabIndex = 5;
-            pbx5.TabStop = false;
+            this.pictureBox_11.Image = global::AI_8Puzzle.Properties.Resources._5;
+            this.pictureBox_11.Location = new System.Drawing.Point(202, 194);
+            this.pictureBox_11.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_11.Name = "pictureBox_11";
+            this.pictureBox_11.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_11.TabIndex = 5;
+            this.pictureBox_11.TabStop = false;
+            this.pictureBox_11.Tag = "11";
+            this.pictureBox_11.Click += new System.EventHandler(this.pictureBox_11_Click);
             // 
-            // pbx3
+            // pictureBox_02
             // 
-            pbx3.Location = new Point(381, 29);
-            pbx3.Margin = new Padding(4);
-            pbx3.Name = "pbx3";
-            pbx3.Size = new Size(173, 160);
-            pbx3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx3.TabIndex = 4;
-            pbx3.TabStop = false;
+            this.pictureBox_02.Image = global::AI_8Puzzle.Properties.Resources._3;
+            this.pictureBox_02.Location = new System.Drawing.Point(381, 29);
+            this.pictureBox_02.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_02.Name = "pictureBox_02";
+            this.pictureBox_02.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_02.TabIndex = 4;
+            this.pictureBox_02.TabStop = false;
+            this.pictureBox_02.Tag = "02";
+            this.pictureBox_02.Click += new System.EventHandler(this.pictureBox_02_Click);
             // 
-            // pbx7
+            // pictureBox_20
             // 
-            pbx7.Location = new Point(23, 359);
-            pbx7.Margin = new Padding(4);
-            pbx7.Name = "pbx7";
-            pbx7.Size = new Size(173, 160);
-            pbx7.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx7.TabIndex = 3;
-            pbx7.TabStop = false;
+            this.pictureBox_20.Image = global::AI_8Puzzle.Properties.Resources._7;
+            this.pictureBox_20.Location = new System.Drawing.Point(23, 359);
+            this.pictureBox_20.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_20.Name = "pictureBox_20";
+            this.pictureBox_20.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_20.TabIndex = 3;
+            this.pictureBox_20.TabStop = false;
+            this.pictureBox_20.Tag = "20";
+            this.pictureBox_20.Click += new System.EventHandler(this.pictureBox_20_Click);
             // 
-            // pbx4
+            // pictureBox_10
             // 
-            pbx4.Location = new Point(23, 194);
-            pbx4.Margin = new Padding(4);
-            pbx4.Name = "pbx4";
-            pbx4.Size = new Size(173, 160);
-            pbx4.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx4.TabIndex = 2;
-            pbx4.TabStop = false;
+            this.pictureBox_10.Image = global::AI_8Puzzle.Properties.Resources._4;
+            this.pictureBox_10.Location = new System.Drawing.Point(23, 194);
+            this.pictureBox_10.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_10.Name = "pictureBox_10";
+            this.pictureBox_10.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_10.TabIndex = 2;
+            this.pictureBox_10.TabStop = false;
+            this.pictureBox_10.Tag = "10";
+            this.pictureBox_10.Click += new System.EventHandler(this.pictureBox_10_Click);
             // 
-            // pbx2
+            // pictureBox_01
             // 
-            pbx2.Location = new Point(202, 29);
-            pbx2.Margin = new Padding(4);
-            pbx2.Name = "pbx2";
-            pbx2.Size = new Size(173, 160);
-            pbx2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx2.TabIndex = 1;
-            pbx2.TabStop = false;
+            this.pictureBox_01.Image = global::AI_8Puzzle.Properties.Resources._2;
+            this.pictureBox_01.Location = new System.Drawing.Point(202, 29);
+            this.pictureBox_01.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_01.Name = "pictureBox_01";
+            this.pictureBox_01.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_01.TabIndex = 1;
+            this.pictureBox_01.TabStop = false;
+            this.pictureBox_01.Tag = "01";
+            this.pictureBox_01.Click += new System.EventHandler(this.pictureBox_01_Click);
             // 
-            // pbx1
+            // pictureBox_00
             // 
-            pbx1.Location = new Point(23, 29);
-            pbx1.Margin = new Padding(4);
-            pbx1.Name = "pbx1";
-            pbx1.Size = new Size(173, 160);
-            pbx1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx1.TabIndex = 0;
-            pbx1.TabStop = false;
+            this.pictureBox_00.Image = global::AI_8Puzzle.Properties.Resources._1;
+            this.pictureBox_00.Location = new System.Drawing.Point(23, 29);
+            this.pictureBox_00.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox_00.Name = "pictureBox_00";
+            this.pictureBox_00.Size = new System.Drawing.Size(173, 160);
+            this.pictureBox_00.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_00.TabIndex = 0;
+            this.pictureBox_00.TabStop = false;
+            this.pictureBox_00.Tag = "00";
+            this.pictureBox_00.Click += new System.EventHandler(this.pictureBox_00_Click);
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(img_goc);
-            groupBox3.Location = new Point(39, 17);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(470, 323);
-            groupBox3.TabIndex = 3;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Hình gốc";
+            this.groupBox3.Controls.Add(this.img_goc);
+            this.groupBox3.Location = new System.Drawing.Point(39, 17);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(470, 323);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Hình gốc";
             // 
             // img_goc
             // 
-            img_goc.Dock = DockStyle.Fill;
-            img_goc.Image = Properties.Resources.ngo_nghinh_anh_meo_cute_nupet_1;
-            img_goc.Location = new Point(3, 23);
-            img_goc.Name = "img_goc";
-            img_goc.Size = new Size(464, 297);
-            img_goc.SizeMode = PictureBoxSizeMode.StretchImage;
-            img_goc.TabIndex = 0;
-            img_goc.TabStop = false;
+            this.img_goc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.img_goc.Image = global::AI_8Puzzle.Properties.Resources.ngo_nghinh_anh_meo_cute_nupet_1;
+            this.img_goc.Location = new System.Drawing.Point(3, 23);
+            this.img_goc.Name = "img_goc";
+            this.img_goc.Size = new System.Drawing.Size(464, 297);
+            this.img_goc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img_goc.TabIndex = 0;
+            this.img_goc.TabStop = false;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(167, 555);
-            label1.Name = "label1";
-            label1.Size = new Size(231, 67);
-            label1.TabIndex = 4;
-            label1.Text = "00:00:00";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(167, 555);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(231, 67);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "00:00:00";
             // 
             // panel1
             // 
-            panel1.BackColor = Color.LightCoral;
-            panel1.Controls.Add(label4);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.RightToLeft = RightToLeft.No;
-            panel1.Size = new Size(1131, 72);
-            panel1.TabIndex = 5;
+            this.panel1.BackColor = System.Drawing.Color.LightCoral;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.panel1.Size = new System.Drawing.Size(1131, 72);
+            this.panel1.TabIndex = 5;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(315, 1);
-            label4.Name = "label4";
-            label4.Size = new Size(490, 62);
-            label4.TabIndex = 5;
-            label4.Text = "Game ghép tranh 8 ô";
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(315, 1);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(490, 62);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Game ghép tranh 8 ô";
             // 
             // panel2
             // 
-            panel2.Controls.Add(label2);
-            panel2.Controls.Add(label3);
-            panel2.Controls.Add(label5);
-            panel2.Controls.Add(groupBox3);
-            panel2.Controls.Add(groupBox1);
-            panel2.Dock = DockStyle.Right;
-            panel2.Location = new Point(575, 72);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(556, 644);
-            panel2.TabIndex = 6;
+            this.panel2.Controls.Add(this.lbCountMove);
+            this.panel2.Controls.Add(this.lbtime);
+            this.panel2.Controls.Add(this.lbNumberStep);
+            this.panel2.Controls.Add(this.groupBox3);
+            this.panel2.Controls.Add(this.groupBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(575, 72);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(556, 644);
+            this.panel2.TabIndex = 6;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // label2
+            // lbCountMove
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.IndianRed;
-            label2.Location = new Point(37, 422);
-            label2.Name = "label2";
-            label2.Size = new Size(193, 31);
-            label2.TabIndex = 8;
-            label2.Text = "Số bước duyệt: 0";
+            this.lbCountMove.AutoSize = true;
+            this.lbCountMove.BackColor = System.Drawing.Color.Transparent;
+            this.lbCountMove.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbCountMove.ForeColor = System.Drawing.Color.IndianRed;
+            this.lbCountMove.Location = new System.Drawing.Point(37, 422);
+            this.lbCountMove.Name = "lbCountMove";
+            this.lbCountMove.Size = new System.Drawing.Size(193, 31);
+            this.lbCountMove.TabIndex = 8;
+            this.lbCountMove.Text = "Số bước duyệt: 0";
             // 
-            // label3
+            // lbtime
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(37, 343);
-            label3.Name = "label3";
-            label3.Size = new Size(243, 31);
-            label3.TabIndex = 5;
-            label3.Text = "Thời gian giải: 2000ms";
+            this.lbtime.AutoSize = true;
+            this.lbtime.BackColor = System.Drawing.Color.Transparent;
+            this.lbtime.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbtime.Location = new System.Drawing.Point(37, 343);
+            this.lbtime.Name = "lbtime";
+            this.lbtime.Size = new System.Drawing.Size(243, 31);
+            this.lbtime.TabIndex = 5;
+            this.lbtime.Text = "Thời gian giải: 2000ms";
+            this.lbtime.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label5
+            // lbNumberStep
             // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.ForeColor = Color.IndianRed;
-            label5.Location = new Point(37, 384);
-            label5.Name = "label5";
-            label5.Size = new Size(154, 31);
-            label5.TabIndex = 7;
-            label5.Text = "Số bước đi: 0";
+            this.lbNumberStep.AutoSize = true;
+            this.lbNumberStep.BackColor = System.Drawing.Color.Transparent;
+            this.lbNumberStep.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbNumberStep.ForeColor = System.Drawing.Color.IndianRed;
+            this.lbNumberStep.Location = new System.Drawing.Point(37, 384);
+            this.lbNumberStep.Name = "lbNumberStep";
+            this.lbNumberStep.Size = new System.Drawing.Size(154, 31);
+            this.lbNumberStep.TabIndex = 7;
+            this.lbNumberStep.Text = "Số bước đi: 0";
             // 
             // panel3
             // 
-            panel3.Controls.Add(btn_next);
-            panel3.Controls.Add(btn_back);
-            panel3.Controls.Add(groupBox2);
-            panel3.Controls.Add(label1);
-            panel3.Dock = DockStyle.Left;
-            panel3.Location = new Point(0, 72);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(574, 644);
-            panel3.TabIndex = 7;
+            this.panel3.Controls.Add(this.btn_next);
+            this.panel3.Controls.Add(this.btn_back);
+            this.panel3.Controls.Add(this.groupBox2);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 72);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(574, 644);
+            this.panel3.TabIndex = 7;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // btn_next
             // 
-            btn_next.BackgroundImage = (Image)resources.GetObject("btn_next.BackgroundImage");
-            btn_next.BackgroundImageLayout = ImageLayout.Zoom;
-            btn_next.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_next.Location = new Point(518, 536);
-            btn_next.Name = "btn_next";
-            btn_next.Size = new Size(54, 42);
-            btn_next.TabIndex = 9;
-            btn_next.UseVisualStyleBackColor = true;
+            this.btn_next.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_next.BackgroundImage")));
+            this.btn_next.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_next.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_next.Location = new System.Drawing.Point(518, 536);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(54, 42);
+            this.btn_next.TabIndex = 9;
+            this.btn_next.UseVisualStyleBackColor = true;
             // 
             // btn_back
             // 
-            btn_back.BackgroundImage = Properties.Resources.icons8_left_208px;
-            btn_back.BackgroundImageLayout = ImageLayout.Zoom;
-            btn_back.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_back.Location = new Point(2, 537);
-            btn_back.Name = "btn_back";
-            btn_back.Size = new Size(54, 42);
-            btn_back.TabIndex = 8;
-            btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.BackgroundImage = global::AI_8Puzzle.Properties.Resources.icons8_left_208px;
+            this.btn_back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_back.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_back.Location = new System.Drawing.Point(2, 537);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(54, 42);
+            this.btn_back.TabIndex = 8;
+            this.btn_back.UseVisualStyleBackColor = true;
             // 
             // Index
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Window;
-            ClientSize = new Size(1131, 716);
-            Controls.Add(panel3);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Name = "Index";
-            Text = "Index";
-            groupBox1.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pbx9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbx6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbx8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbx5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbx3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbx7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbx4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbx2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbx1).EndInit();
-            groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)img_goc).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(1131, 716);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "Index";
+            this.Text = "Index";
+            this.Load += new System.EventHandler(this.Index_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_00)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.img_goc)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -432,24 +468,24 @@
         private Panel panel1;
         private Panel panel2;
         private Panel panel3;
-        private Label label3;
+        private Label lbtime;
         private Button btn_giaitoiuu;
         private Button btn_bfs;
         private Button btn_choilai;
         private Button btn_tamdung;
         private Label label4;
-        private Label label5;
+        private Label lbNumberStep;
         private Button btn_next;
         private Button btn_back;
-        private Label label2;
-        private PictureBox pbx7;
-        private PictureBox pbx4;
-        private PictureBox pbx2;
-        private PictureBox pbx1;
-        private PictureBox pbx9;
-        private PictureBox pbx6;
-        private PictureBox pbx8;
-        private PictureBox pbx5;
-        private PictureBox pbx3;
+        private Label lbCountMove;
+        private PictureBox pictureBox_20;
+        private PictureBox pictureBox_10;
+        private PictureBox pictureBox_01;
+        private PictureBox pictureBox_00;
+        private PictureBox pictureBox_22;
+        private PictureBox pictureBox_12;
+        private PictureBox pictureBox_21;
+        private PictureBox pictureBox_11;
+        private PictureBox pictureBox_02;
     }
 }
