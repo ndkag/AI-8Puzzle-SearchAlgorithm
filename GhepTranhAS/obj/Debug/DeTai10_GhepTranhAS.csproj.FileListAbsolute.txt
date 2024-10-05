@@ -1,0 +1,50 @@
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe.config
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.pdb
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Form1.resources
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Properties.Resources.resources
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.exe
+C:\Users\Administrator\Desktop\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.pdb
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csprojAssemblyReference.cache
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Form1.resources
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Properties.Resources.resources
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.GenerateResource.cache
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.CoreCompileInputs.cache
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.exe
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.pdb
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe.config
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe
+E:\Hoc_tap\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.pdb
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe.config
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.pdb
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Form1.resources
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Properties.Resources.resources
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.exe
+C:\Users\Admin\Documents\Zalo Received Files\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.pdb
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe.config
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.pdb
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.AssemblyReference.cache
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Form1.resources
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Properties.Resources.resources
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.GenerateResource.cache
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.CoreCompileInputs.cache
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.exe
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\BTL_AI_thayHau\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.pdb
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe.config
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.exe
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\bin\Debug\DeTai10_GhepTranhAS.pdb
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.AssemblyReference.cache
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Form1.resources
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.Properties.Resources.resources
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.GenerateResource.cache
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.csproj.CoreCompileInputs.cache
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.exe
+C:\Users\duykh\OneDrive\Desktop\BTL_AI_thayHau-20241005T082238Z-001\DeTai10_GhepTranhAS\DeTai10_GhepTranhAS\obj\Debug\DeTai10_GhepTranhAS.pdb
