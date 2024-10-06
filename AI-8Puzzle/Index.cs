@@ -72,7 +72,7 @@ namespace AI_8Puzzle
                     }
                     puzzleGame.board = state.Board; // Cập nhật ma trận của puzzleGame
                     puzzleGame.UpdateUI(this); // Cập nhật giao diện
-                    await Task.Delay(1000); // Đợi 1 giây giữa mỗi bước
+                               await Task.Delay(1000); // Đợi 1 giây giữa mỗi bước
 
                 }
                 MessageBox.Show("Puzzle đã được giải bằng BFS!");
