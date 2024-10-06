@@ -9,11 +9,25 @@ namespace AI_8Puzzle
     public class PuzzleGame
     {
         public int[,] board; // Ma trận lưu trạng thái của puzzle
-        public int emptyX, emptyY; // Vị trí hiện tại của ô trống
+        public int emptyX { get; set; }
+        public int emptyY { get; set; }
+        public PuzzleGame(int [,]_board,int _emptyX,int _emptyY)
+        {
+            board = _board;
+            emptyX = _emptyX;
+            emptyY = _emptyY;
+        }
+
+        // Vị trí hiện tại của ô trống
+        public int[,] GetBoard()
+        {
+            return board;
+        }
         public int GetEmptyX()
         {
             return emptyX;
         }
+       
         public int GetEmptyY()
         {
             return emptyX;
@@ -23,47 +37,88 @@ namespace AI_8Puzzle
         {
             InitializeBoard();
         }
-        public void random(Form form)
+        public int[,] random(Form form)
         {
 
+            // Test case 1: Có thể giải được (valid)
             int[,] testCase1 = new int[,]
             {
-            { 1, 2, 0 },
-            { 3, 4, 6 },
-            { 7, 5, 8 }
-            };
-            
-            int[,] testCase2 = new int[,]
-            {
-            { 1, 0, 3 },
-            { 4, 2, 6 },
-            { 7, 5, 8 }
+    { 1, 2, 0 },
+    { 3, 4, 6 },
+    { 7, 5, 8 }
             };
 
+            // Test case 2: Có thể giải được (valid)
+            int[,] testCase2 = new int[,]
+            {
+    { 1, 0, 3 },
+    { 4, 2, 6 },
+    { 7, 5, 8 }
+            };
+
+            // Test case 3: Có thể giải được (valid)
             int[,] testCase3 = new int[,]
             {
-            { 1, 2, 3 },
-            { 4, 6, 0 },
-            { 7, 5, 8 }
+    { 1, 2, 3 },
+    { 4, 6, 0 },
+    { 7, 5, 8 }
             };
+
+            // Test case 4: Có thể giải được (valid)
+            int[,] testCase4 = new int[,]
+            {
+    { 1, 2, 3 },
+    { 5, 0, 6 },
+    { 4, 7, 8 }
+            };
+
+            // Test case 5: Có thể giải được (valid)
+            int[,] testCase5 = new int[,]
+            {
+    { 4, 1, 3 },
+    { 2, 0, 6 },
+    { 7, 5, 8 }
+            };
+
             Random rnd = new Random();
             int dice = rnd.Next(1, 3);   // creates a number between 1 and 6
-            if(dice == 1)
+            if (dice == 1)
             {
                 SetBoard(testCase1);
                 UpdateUI(form);
+                Console.WriteLine();
+                return testCase1;
             }
             if (dice == 2)
             {
                 SetBoard(testCase2);
                 UpdateUI(form);
+                return testCase2;
+
             }
-            if(dice == 3)
+            if (dice == 3)
             {
                 SetBoard(testCase3);
                 UpdateUI(form);
+                return testCase3;
+
             }
-        
+            if (dice == 4)
+            {
+                SetBoard(testCase4);
+                UpdateUI(form);
+                return testCase4;
+
+            }
+            if (dice == 5)
+            {
+                SetBoard(testCase5);
+                UpdateUI(form);
+                return testCase5;
+
+            }
+
+        return null;
         }
         // Khởi tạo ma trận ban đầu
         public void InitializeBoard()
@@ -86,7 +141,7 @@ namespace AI_8Puzzle
         }
 
         // Thực hiện di chuyển mảnh ghép
-        public void MovePiece(int clickedX, int clickedY,Form form)
+        public void MovePiece(int clickedX, int clickedY, Form form)
         {
             if (CanMovePiece(clickedX, clickedY))
             {
@@ -98,7 +153,7 @@ namespace AI_8Puzzle
                 emptyX = clickedX;
                 emptyY = clickedY;
                 UpdateUI(form);
-                if(IsGameWon())
+                if (IsGameWon())
                 {
                     MessageBox.Show("Bạn đã chiến thắng");
                 }
@@ -106,11 +161,7 @@ namespace AI_8Puzzle
         }
 
         // Trả về ma trận hiện tại của puzzle
-        public int[,] GetBoard()
-        {
-            return board;
-        }
-        public void SetBoard(int[,] newBoard)
+        public int[,] SetBoard(int[,] newBoard)
         {
             // Cập nhật giá trị của ma trận board từ newBoard
             for (int i = 0; i < 3; i++)
@@ -127,6 +178,7 @@ namespace AI_8Puzzle
                     }
                 }
             }
+            return board;
         }
 
 

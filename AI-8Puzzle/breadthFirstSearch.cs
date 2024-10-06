@@ -107,7 +107,7 @@ namespace AI_8Puzzle
             // Bắt đầu đo thời gian
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-
+            Debug.WriteLine("state",String.Join(',', initialState));
             // Hàng đợi cho các trạng thái cần duyệt
             Queue<PuzzleState> queue = new Queue<PuzzleState>();
 
@@ -116,14 +116,16 @@ namespace AI_8Puzzle
 
             // Thêm trạng thái ban đầu vào hàng đợi
             queue.Enqueue(initialState);
+            Debug.WriteLine("initial state:");
+            Debug.WriteLine(BoardToString(initialState.Board));
             visited.Add(initialState.GetStateKey());
 
             // BFS
             while (queue.Count > 0)
             {
                 var currentState = queue.Dequeue();
-                UpdateUI(currentState, form);
-                Thread.Sleep(500);
+                //UpdateUI(currentState, form);
+                //Thread.Sleep(500);
                 // Kiểm tra nếu trạng thái hiện tại là trạng thái đích
                 if (currentState.IsGoalState())
                 {
@@ -141,11 +143,13 @@ namespace AI_8Puzzle
                     {
                         queue.Enqueue(neighbor);
                         visited.Add(neighbor.GetStateKey());
+                 
+
                     }
                 }
-                
-            }
 
+
+            }
             stopwatch.Stop();
             return (null, stopwatch.Elapsed, 0); // Trả về null nếu không tìm thấy giải pháp
         }
@@ -170,17 +174,45 @@ namespace AI_8Puzzle
                 if (newX >= 0 && newX < 3 && newY >= 0 && newY < 3)
                 {
                     // Tạo trạng thái mới bằng cách di chuyển ô trống
-                    int[,] newBoard = (int[,])state.Board.Clone();
+                    int[,] newBoard = new int[3, 3];
+                    for (int row = 0; row < 3; row++)
+                    {
+                        for (int col = 0; col < 3; col++)
+                        {
+                            newBoard[row, col] = state.Board[row, col];
+                        }
+                    }
                     newBoard[state.BlankX, state.BlankY] = newBoard[newX, newY];
                     newBoard[newX, newY] = 0;
 
                     // Thêm trạng thái mới vào danh sách lân cận
                     neighbors.Add(new PuzzleState(newBoard, newX, newY, state));
+                    // In thông tin về trạng thái lân cận ra console
+                    Debug.WriteLine("Neighbor state:");
+                    Debug.WriteLine(BoardToString(newBoard));
+                    Debug.WriteLine("Previous state:");
+                    Debug.WriteLine(BoardToString(state.Board));
+
                 }
             }
+            
 
             return neighbors;
         }
+        public string BoardToString(int[,] board)
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    sb.Append(board[i, j] + " ");
+                }
+                sb.AppendLine();
+            }
+            return sb.ToString();
+        }
+
         public List<PuzzleState> GetSolutionPath(PuzzleState goalState)
         {
             List<PuzzleState> path = new List<PuzzleState>();

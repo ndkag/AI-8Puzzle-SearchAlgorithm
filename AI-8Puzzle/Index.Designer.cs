@@ -111,7 +111,7 @@
             this.btn_giaitoiuu.TabIndex = 4;
             this.btn_giaitoiuu.Text = "Giải tối ưu";
             this.btn_giaitoiuu.UseVisualStyleBackColor = true;
-            this.btn_giaitoiuu.Click += new System.EventHandler(this.btn_giaitoiuu_Click);
+           
             // 
             // btn_bfs
             // 

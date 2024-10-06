@@ -1,5 +1,6 @@
 ﻿
 using System.Diagnostics;
+using System.Text;
 
 namespace AI_8Puzzle
 {
@@ -45,24 +46,34 @@ namespace AI_8Puzzle
 
         }
 
-        private void btn_bfs_Click(object sender, EventArgs e)
+        private async void btn_bfs_Click(object sender, EventArgs e)
         {
 
             // Tạo trạng thái ban đầu từ ma trận hiện tại
-            puzzleState = new PuzzleState(puzzleGame.GetBoard(), puzzleGame.GetEmptyX(), puzzleGame.GetEmptyY());
+            PuzzleState _puzzleState = new PuzzleState(puzzleGame.GetBoard(), puzzleGame.emptyX, puzzleGame.emptyY);
           
             // Giải bài toán với BFS
-            var (solutionPath, elapsedTime, steps) = puzzleState.SolveWithBFS(puzzleState, this);
+            var (solutionPath, elapsedTime, steps) = _puzzleState.SolveWithBFS(_puzzleState, this);
       
             lbtime.Text = $"Thời gian: {elapsedTime.TotalSeconds} giây";
             lbNumberStep.Text = $"Số bước: {steps}";
             if (solutionPath != null)
             {
                 // Duyệt qua từng trạng thái trong đường đi và cập nhật giao diện
+                Debug.WriteLine("###các bước###:");
                 foreach (var state in solutionPath)
                 {
-                    puzzleGame.SetBoard(state.Board); // Cập nhật ma trận của puzzleGame
+                    Debug.WriteLine("BOARD:");
+                    Debug.WriteLine(BoardToString(state.Board));
+                    if(state.Parent != null)
+                    {
+                        Debug.WriteLine("Parent:");
+                        Debug.WriteLine(BoardToString(state.Parent.Board));
+                    }
+                    puzzleGame.board = state.Board; // Cập nhật ma trận của puzzleGame
                     puzzleGame.UpdateUI(this); // Cập nhật giao diện
+                    await Task.Delay(1000); // Đợi 1 giây giữa mỗi bước
+
                 }
                 MessageBox.Show("Puzzle đã được giải bằng BFS!");
             }
@@ -72,6 +83,19 @@ namespace AI_8Puzzle
             }
             
 
+        }
+        public string BoardToString(int[,] board)
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    sb.Append(board[i, j] + " ");
+                }
+                sb.AppendLine();
+            }
+            return sb.ToString();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
