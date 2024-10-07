@@ -1,7 +1,9 @@
-﻿using System;
+﻿using GhepTranhAS.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,6 +18,7 @@ namespace GhepTranhAS
         ThuatToanAS AS;
         Stack<int[,]> stk;
         Button[,] Mangbt;
+        int emptyX, emptyY;
         int n = 3;
         int SoLanDiChuyen = 0;
 
@@ -23,7 +26,12 @@ namespace GhepTranhAS
         public Form1()
         {
            InitializeComponent();
-            MaTran = new int[n, n];
+            MaTran = new[,]
+            {
+                { 1, 2, 3 },
+                { 4, 5, 6 },
+                { 7, 8, 0 } // Ô trống ban đầu
+            };
             AS  = new ThuatToanAS();
            
             stk = new Stack<int[,]>();
@@ -34,17 +42,17 @@ namespace GhepTranhAS
         int anh=1;
         private void Form1_Load(object sender, EventArgs e)
         {
-            Mangbt[0, 0] = button1;
-            Mangbt[0, 1] = button2;
-            Mangbt[0, 2] = button3;
-            Mangbt[1, 0] = button4;
-            Mangbt[1, 1] = button5;
-            Mangbt[1, 2] = button6;
-            Mangbt[2, 0] = button7;
-            Mangbt[2, 1] = button8;
-            Mangbt[2, 2] = button9;
+            Mangbt[0, 0] = button_00;
+            Mangbt[0, 1] = button_01;
+            Mangbt[0, 2] = button_02;
+            Mangbt[1, 0] = button_10;
+            Mangbt[1, 1] = button_11;
+            Mangbt[1, 2] = button_12;
+            Mangbt[2, 0] = button_20;
+            Mangbt[2, 1] = button_21;
+            Mangbt[2, 2] = button_22;
            
-            btnBauDau.Enabled = false;
+            //btnBauDau.Enabled = false;
             btnDung.Enabled = false;
         }
         public string layPath(int a, int anh)
@@ -124,6 +132,7 @@ namespace GhepTranhAS
 
         private void btnBauDau_Click(object sender, EventArgs e)
         {
+            batDauTim();
             timer1.Enabled = true;
             btnBauDau.Enabled = false;
             btnDung.Enabled = true;
@@ -151,6 +160,52 @@ namespace GhepTranhAS
 
             loadanh(MaTran, Mangbt);
 
+            //stk = AS.timKetQua(MaTran, n);
+            //stk.Pop();
+            //comboBox1.Text = comboBox1.Items[0].ToString();
+            //lbSobuocdi.Text = "0";
+            //SoLanDiChuyen = 0;
+            //btnBauDau.Enabled = false;
+            //btnDung.Enabled = false;
+            //timer1.Enabled = false;
+        }
+        void timViTriChong()
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (MaTran[i, j] == 0) {
+                        emptyX = i;
+                        emptyY = j;
+                    }
+                }
+            }
+        }
+        void diChuyenAnh(object sender, EventArgs e)
+        {
+            var clickedBox = sender as Button;
+            timViTriChong();
+            // Lấy vị trí của mảnh ghép trong ma trận dựa trên Tag (giả sử mỗi PictureBox có Tag là vị trí của nó)
+            var clickedX = clickedBox.Tag.ToString()[0] - '0'; // Hàng
+            var clickedY = clickedBox.Tag.ToString()[1] - '0'; // Cột
+            if (Math.Abs(clickedX - emptyX) + Math.Abs(clickedY - emptyY) == 1)
+            {
+                // Hoán đổi vị trí của ô trống và mảnh ghép
+                MaTran[emptyX, emptyY] = MaTran[clickedX, clickedY];
+                MaTran[clickedX, clickedY] = 0;
+
+                // Cập nhật lại vị trí của ô trống
+                emptyX = clickedX;
+                emptyY = clickedY;
+            }
+            updateButton(this);
+            Debug.WriteLine("Ma Trận");
+            Debug.WriteLine(BoardToString(MaTran));
+
+        }
+        void batDauTim()
+        {
             stk = AS.timKetQua(MaTran, n);
             stk.Pop();
             comboBox1.Text = comboBox1.Items[0].ToString();
@@ -184,5 +239,60 @@ namespace GhepTranhAS
             else pictureBox1.Image = Image.FromFile(Application.StartupPath + @"\anh\\cong.jpg");
 
         }
+        void updateButton(Form form)
+        {
+            for (var i = 0; i < 3; i++)
+            {
+                for (var j = 0; j < 3; j++)
+                {
+                    var button = form.Controls.Find($"button_{i}{j}", true).FirstOrDefault() as Button;
+                    if (button != null)
+                    {
+                        if (MaTran[i, j] == 0)
+                        {
+                            button.Image = null; // Nếu là ô trống thì không hiển thị hình
+                            button.Text = "";    // Xóa text nếu có
+                        }
+                        else
+                        {
+                            button.Image = GetImageForPiece(MaTran[i, j]); // Hiển thị hình ảnh mảnh ghép
+                            button.Text = "";    // Xóa text nếu có
+                        }
+                    }
+                }
+            }
+        }
+
+        private Image GetImageForPiece(int pieceNumber)
+        {
+            switch (pieceNumber)
+            {
+                case 1: return Resources.hoa1;
+                case 2: return Resources.hoa2;
+                case 3: return Resources.hoa3;
+                case 4: return Resources.hoa4;
+                case 5: return Resources.hoa5;
+                case 6: return Resources.hoa6;
+                case 7: return Resources.hoa7;
+                case 8: return Resources.hoa8;
+                default: return null;
+            }
+        }
+        public string BoardToString(int[,] board)
+        {
+            var sb = new StringBuilder();
+            for (var i = 0; i < 3; i++)
+            {
+                for (var j = 0; j < 3; j++) sb.Append(board[i, j] + " ");
+                sb.AppendLine();
+            }
+
+            return sb.ToString();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

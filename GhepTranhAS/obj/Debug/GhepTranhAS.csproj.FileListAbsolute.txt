@@ -18,3 +18,13 @@ C:\Users\duykh\OneDrive\Desktop\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug
 C:\Users\duykh\OneDrive\Desktop\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.csproj.CoreCompileInputs.cache
 C:\Users\duykh\OneDrive\Desktop\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.exe
 C:\Users\duykh\OneDrive\Desktop\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.pdb
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\bin\Debug\GhepTranhAS.exe.config
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\bin\Debug\GhepTranhAS.exe
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\bin\Debug\GhepTranhAS.pdb
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.csproj.AssemblyReference.cache
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.Form1.resources
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.Properties.Resources.resources
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.csproj.GenerateResource.cache
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.csproj.CoreCompileInputs.cache
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.exe
+D:\Documents\2024-2025\AI\New folder\AI-8Puzzle-SearchAlgorithm\GhepTranhAS\obj\Debug\GhepTranhAS.pdb

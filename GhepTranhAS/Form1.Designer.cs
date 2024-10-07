@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button9 = new System.Windows.Forms.Button();
+            this.button_22 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.btnBauDau = new System.Windows.Forms.Button();
             this.btnDung = new System.Windows.Forms.Button();
@@ -43,14 +43,14 @@
             this.lbSobuocdi = new System.Windows.Forms.Label();
             this.btnChoiMoi = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.button_00 = new System.Windows.Forms.Button();
+            this.button_10 = new System.Windows.Forms.Button();
+            this.button_20 = new System.Windows.Forms.Button();
+            this.button_01 = new System.Windows.Forms.Button();
+            this.button_12 = new System.Windows.Forms.Button();
+            this.button_11 = new System.Windows.Forms.Button();
+            this.button_02 = new System.Windows.Forms.Button();
+            this.button_21 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -61,14 +61,16 @@
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button9
+            // button_22
             // 
-            this.button9.BackColor = System.Drawing.Color.Transparent;
-            this.button9.Location = new System.Drawing.Point(303, 319);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(150, 150);
-            this.button9.TabIndex = 0;
-            this.button9.UseVisualStyleBackColor = false;
+            this.button_22.BackColor = System.Drawing.Color.Transparent;
+            this.button_22.Location = new System.Drawing.Point(303, 319);
+            this.button_22.Name = "button_22";
+            this.button_22.Size = new System.Drawing.Size(150, 150);
+            this.button_22.TabIndex = 0;
+            this.button_22.Tag = "22";
+            this.button_22.UseVisualStyleBackColor = false;
+            this.button_22.Click += new System.EventHandler(this.diChuyenAnh);
             // 
             // button10
             // 
@@ -225,15 +227,15 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button9);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button8);
+            this.groupBox1.Controls.Add(this.button_00);
+            this.groupBox1.Controls.Add(this.button_10);
+            this.groupBox1.Controls.Add(this.button_20);
+            this.groupBox1.Controls.Add(this.button_22);
+            this.groupBox1.Controls.Add(this.button_01);
+            this.groupBox1.Controls.Add(this.button_12);
+            this.groupBox1.Controls.Add(this.button_11);
+            this.groupBox1.Controls.Add(this.button_02);
+            this.groupBox1.Controls.Add(this.button_21);
             this.groupBox1.Location = new System.Drawing.Point(0, 80);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(462, 476);
@@ -241,85 +243,101 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Khung ảnh";
             // 
-            // button1
+            // button_00
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Image = global::GhepTranhAS.Properties.Resources.hoa1;
-            this.button1.Location = new System.Drawing.Point(6, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 150);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
+            this.button_00.BackColor = System.Drawing.Color.White;
+            this.button_00.Image = global::GhepTranhAS.Properties.Resources.hoa1;
+            this.button_00.Location = new System.Drawing.Point(6, 23);
+            this.button_00.Name = "button_00";
+            this.button_00.Size = new System.Drawing.Size(150, 150);
+            this.button_00.TabIndex = 0;
+            this.button_00.Tag = "00";
+            this.button_00.UseVisualStyleBackColor = false;
+            this.button_00.Click += new System.EventHandler(this.diChuyenAnh);
             // 
-            // button4
+            // button_10
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Image = global::GhepTranhAS.Properties.Resources.hoa4;
-            this.button4.Location = new System.Drawing.Point(6, 171);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(150, 150);
-            this.button4.TabIndex = 0;
-            this.button4.UseVisualStyleBackColor = false;
+            this.button_10.BackColor = System.Drawing.Color.White;
+            this.button_10.Image = global::GhepTranhAS.Properties.Resources.hoa4;
+            this.button_10.Location = new System.Drawing.Point(6, 171);
+            this.button_10.Name = "button_10";
+            this.button_10.Size = new System.Drawing.Size(150, 150);
+            this.button_10.TabIndex = 0;
+            this.button_10.Tag = "10";
+            this.button_10.UseVisualStyleBackColor = false;
+            this.button_10.Click += new System.EventHandler(this.diChuyenAnh);
             // 
-            // button7
+            // button_20
             // 
-            this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Image = global::GhepTranhAS.Properties.Resources.hoa7;
-            this.button7.Location = new System.Drawing.Point(6, 319);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(150, 150);
-            this.button7.TabIndex = 0;
-            this.button7.UseVisualStyleBackColor = false;
+            this.button_20.BackColor = System.Drawing.Color.White;
+            this.button_20.Image = global::GhepTranhAS.Properties.Resources.hoa7;
+            this.button_20.Location = new System.Drawing.Point(6, 319);
+            this.button_20.Name = "button_20";
+            this.button_20.Size = new System.Drawing.Size(150, 150);
+            this.button_20.TabIndex = 0;
+            this.button_20.Tag = "20";
+            this.button_20.UseVisualStyleBackColor = false;
+            this.button_20.Click += new System.EventHandler(this.diChuyenAnh);
             // 
-            // button2
+            // button_01
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Image = global::GhepTranhAS.Properties.Resources.hoa2;
-            this.button2.Location = new System.Drawing.Point(154, 23);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 150);
-            this.button2.TabIndex = 0;
-            this.button2.UseVisualStyleBackColor = false;
+            this.button_01.BackColor = System.Drawing.Color.White;
+            this.button_01.Image = global::GhepTranhAS.Properties.Resources.hoa2;
+            this.button_01.Location = new System.Drawing.Point(154, 23);
+            this.button_01.Name = "button_01";
+            this.button_01.Size = new System.Drawing.Size(150, 150);
+            this.button_01.TabIndex = 0;
+            this.button_01.Tag = "01";
+            this.button_01.UseVisualStyleBackColor = false;
+            this.button_01.Click += new System.EventHandler(this.diChuyenAnh);
             // 
-            // button6
+            // button_12
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Image = global::GhepTranhAS.Properties.Resources.hoa6;
-            this.button6.Location = new System.Drawing.Point(303, 171);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(150, 150);
-            this.button6.TabIndex = 0;
-            this.button6.UseVisualStyleBackColor = false;
+            this.button_12.BackColor = System.Drawing.Color.White;
+            this.button_12.Image = global::GhepTranhAS.Properties.Resources.hoa6;
+            this.button_12.Location = new System.Drawing.Point(303, 171);
+            this.button_12.Name = "button_12";
+            this.button_12.Size = new System.Drawing.Size(150, 150);
+            this.button_12.TabIndex = 0;
+            this.button_12.Tag = "12";
+            this.button_12.UseVisualStyleBackColor = false;
+            this.button_12.Click += new System.EventHandler(this.diChuyenAnh);
             // 
-            // button5
+            // button_11
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Image = global::GhepTranhAS.Properties.Resources.hoa5;
-            this.button5.Location = new System.Drawing.Point(154, 171);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(150, 150);
-            this.button5.TabIndex = 0;
-            this.button5.UseVisualStyleBackColor = false;
+            this.button_11.BackColor = System.Drawing.Color.White;
+            this.button_11.Image = global::GhepTranhAS.Properties.Resources.hoa5;
+            this.button_11.Location = new System.Drawing.Point(154, 171);
+            this.button_11.Name = "button_11";
+            this.button_11.Size = new System.Drawing.Size(150, 150);
+            this.button_11.TabIndex = 0;
+            this.button_11.Tag = "11";
+            this.button_11.UseVisualStyleBackColor = false;
+            this.button_11.Click += new System.EventHandler(this.diChuyenAnh);
             // 
-            // button3
+            // button_02
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Image = global::GhepTranhAS.Properties.Resources.hoa3;
-            this.button3.Location = new System.Drawing.Point(303, 23);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 150);
-            this.button3.TabIndex = 0;
-            this.button3.UseVisualStyleBackColor = false;
+            this.button_02.BackColor = System.Drawing.Color.White;
+            this.button_02.Image = global::GhepTranhAS.Properties.Resources.hoa3;
+            this.button_02.Location = new System.Drawing.Point(303, 23);
+            this.button_02.Name = "button_02";
+            this.button_02.Size = new System.Drawing.Size(150, 150);
+            this.button_02.TabIndex = 0;
+            this.button_02.Tag = "02";
+            this.button_02.UseVisualStyleBackColor = false;
+            this.button_02.Click += new System.EventHandler(this.diChuyenAnh);
             // 
-            // button8
+            // button_21
             // 
-            this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Image = global::GhepTranhAS.Properties.Resources.hoa8;
-            this.button8.Location = new System.Drawing.Point(154, 319);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(150, 150);
-            this.button8.TabIndex = 0;
-            this.button8.UseVisualStyleBackColor = false;
+            this.button_21.BackColor = System.Drawing.Color.White;
+            this.button_21.Image = global::GhepTranhAS.Properties.Resources.hoa8;
+            this.button_21.Location = new System.Drawing.Point(154, 319);
+            this.button_21.Name = "button_21";
+            this.button_21.Size = new System.Drawing.Size(150, 150);
+            this.button_21.TabIndex = 0;
+            this.button_21.Tag = "21";
+            this.button_21.UseVisualStyleBackColor = false;
+            this.button_21.Click += new System.EventHandler(this.diChuyenAnh);
             // 
             // timer1
             // 
@@ -373,15 +391,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button_00;
+        private System.Windows.Forms.Button button_01;
+        private System.Windows.Forms.Button button_02;
+        private System.Windows.Forms.Button button_10;
+        private System.Windows.Forms.Button button_11;
+        private System.Windows.Forms.Button button_12;
+        private System.Windows.Forms.Button button_20;
+        private System.Windows.Forms.Button button_21;
+        private System.Windows.Forms.Button button_22;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button btnBauDau;
         private System.Windows.Forms.Button btnDung;
